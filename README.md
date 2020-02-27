@@ -1,4 +1,10 @@
-# Final Activity 1
+# Finals - Activity 1
+Plot.ly + Express + Heroku
+
+## Todos
+- [] Use any visualization tool (e.g. [Plotly](https://plot.ly/))
+- [] Integrate plotly and express
+- [] 
 
 ## Steps
 
@@ -36,3 +42,23 @@ https://cbalaman.herokuapp.com/ | https://git.heroku.com/cbalaman.git
 > git push heroku master
 > heroku open
 ```
+## Official Heroku URI
+|  Name | Heroku URI  |
+|---|---|
+| Bandong  | https://kbandong.herokuapp.com/  |
+| Palma  | https://jpalma.herokuapp.com/  |
+| Yee  | https://jyee.herokuapp.com/  |
+| Lalis  | https://jlalis.herokuapp.com/  |
+| Evangelista | http://jevangelista.herokuapp.com/  |
+| Villamil  | http://rvillamil.herokuapp.com/  |
+| Catacutan  | http://rcatacutan.herokuapp.com/  |
+| Coronado  | http://ecoronado.herokuapp.com/  |
+| Prieto  | http://jprieto.herokuapp.com/  |
+| Villaflores  | http://jvillaflores.herokuapp.com/  |
+| Montaner  | https://tmontaner.herokuapp.com/  |
+| Barcena  | https://cbarcena.herokuapp.com/  |
+| Roble | http://nroble.herokuapp.com/  |
+| Alemania  | http://calemania.herokuapp.com/  |
+| Gomera  | http://ngomera.herokuapp.com/  |
+| Nicolas  | http://jnicolas.herokuapp.com/  |
+| Colomer | https://jcolomer.herokuapp.com/  |

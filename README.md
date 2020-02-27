@@ -6,12 +6,12 @@
 1. Install plotly dependency ```npm install --save plotly```
 1. Draw your plot.
 ```js
-//1. instantiate plotly
-//2. define data
-//3. graph options
-//4. graph plot
+//a. instantiate plotly
+//b. define data
+//c. graph options
+//d. graph plot
 ```
-1. Setup express scripts
+4. Setup express scripts
 ```js
 const path = require('path')
 const express = require('express')
@@ -23,7 +23,7 @@ app.get('/', function(req, res) {
 app.listen(3000)
 console.log('Server is running on 192.168.202.106:3000')
 ```
-1. Deploy to Heroku
+5. Deploy to Heroku (note: setup ```Procile```, ```.gitignore```, and ```PORT```)
 ```js
 # Install Heroku CLI
 > heroku --version

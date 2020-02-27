@@ -4,7 +4,7 @@ Plot.ly + Express + Heroku
 ## Todos
 - [] Use any visualization tool (e.g. [Plotly](https://plot.ly/))
 - [] Integrate plotly and express
-- [] 
+- [] Deploy to Heroku
 
 ## Steps
 

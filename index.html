@@ -1,26 +1,25 @@
-const path = require('path')
-const express = require('express')
-const app = express()
-app.get('/', function(req, res) {
+<!DOCTYPE html>
+<html lang="en">
 
-    //1. instantiate plotly APIKey=I6Fa8NXEkuUAl7SRpNTr
-    const plotly = require('plotly')("cbatuic", "I6Fa8NXEkuUAl7SRpNTr")
-    //2. define data
-    const data = [
-        {
-        x: ["giraffes", "orangutans", "monkeys"],
-        y: [20, 14, 23],
-        type: "bar"
-        }
-    ];
-    console.log(data[0].type) // bar
-    console.log(data[0].x[0]) // girraffes
-    //3. graph options
-    var graphOptions = {filename: "balaman-basic-bar", fileopt: "overwrite"};
-    //4. graph plot
-    plotly.plot(data, graphOptions, function (err, msg) {
-        console.log(msg.url);
-        res.end(`
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Freelancer - Start Bootstrap Theme</title>
+
+  <!-- Custom fonts for this theme -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+  <!-- Theme CSS -->
+  <link href="css/freelancer.min.css" rel="stylesheet">
+
+</head>
+
 <body id="page-top">
 
   <!-- Navigation -->
@@ -574,13 +573,3 @@ app.get('/', function(req, res) {
 </body>
 
 </html>
-
-        <a href=${msg.url}>View my Daily Expenses Plot</a>
-        `)
-    });
-
-    
-})
-const PORT = process.env.PORT || 5000
-app.listen(PORT)
-console.log(`Server is running on ${PORT}`)
